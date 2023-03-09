@@ -4,6 +4,10 @@ const server = http.createServer((req, res) => {
     res.write('Server Running')
     res.end()
 })
+server.setTimeout(20000, () => {
+    console.log('timeout')
+    server.close()
+})
 server.listen(3210, () => {
     console.log('Server is listening on port 3210')
 })
