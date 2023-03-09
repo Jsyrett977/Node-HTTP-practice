@@ -1,0 +1,22 @@
+{
+  "name": "node-http-practice",
+  "version": "1.0.0",
+  "description": "node-http-practice ===",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jsyrett977/Node-HTTP-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jsyrett977/Node-HTTP-practice/issues"
+  },
+  "homepage": "https://github.com/Jsyrett977/Node-HTTP-practice#readme",
+  "dependencies": {
+    "http": "^0.0.1-security"
+  }
+}
